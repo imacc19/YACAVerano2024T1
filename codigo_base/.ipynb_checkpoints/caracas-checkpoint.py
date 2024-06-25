@@ -2,6 +2,8 @@ def plot_hist(clases, freq_absoluta, mrks, labelx, labely, titulo):
     import matplotlib.pyplot as plt
 
      # Ajustar el ancho de las barras según el tamaño de los datos
+    plt.figure(figsize=(30, 21))
+    
     if max(mrks) > 500:
         bar_width = 30.0
     else:

@@ -2,7 +2,7 @@ def plot_poligono(clases, fa_sorted,marcas_texto, labelx, labely, titulo):
     import matplotlib.pyplot as plt
 
 # Datos
-    plt.figure(figsize=(12, 6))  # Ancho, Alto del gráfico
+    plt.figure(figsize=(30, 21))  # Ancho, Alto del gráfico
 
 
     # Ajustes para el graficado del polígono
