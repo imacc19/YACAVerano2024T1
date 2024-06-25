@@ -2,7 +2,7 @@ import math
 
 def clases_grouped(datos):
     amplitud = round(max(datos) - min(datos), 2)
-    nclases = 1 + (3.3*math.log10(len(datos)))
+    nclases = 2 + (3.3*math.log10(len(datos)))
     anc_clas = round(amplitud / math.floor(nclases), 2)
 
     marc_clase = []
